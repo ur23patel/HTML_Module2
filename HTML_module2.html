@@ -599,9 +599,199 @@ p    {color:black;}
 </code>
 
 <h3>External:</h3>
+<h4>HTML:</h4>
 <code>
-    
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;link rel="stylesheet" href="HTML_module2/style.css"&gt;
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+</code>
+
+<h4>CSS:</h4>
+<code>
+    body {<br>
+        background-color: lightblue;<br>
+      }<br>
+      
+      h1 {<br>
+        color: navy;<br>
+        margin-left: 20px;<br>
+      }<br>
+</code>
+
+<strong>
+    <li>Create below page using HTML CSS</li>
+</strong>
+<p>Ans:-</p>
+
+<h4>HTML:</h4>
+<code>
+  
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;Registration &lt;/title&gt;<br>
+&lt;link rel="stylesheet" href="HTML_module2/style.css"&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;header&gt;<br>
+&lt;h1&gt;Individual Registration&lt;/h1&gt;<br>
+&lt;/header&gt;<br>
+&lt;form method="POST"&gt;<br>
+&lt;div class="container"&gt;<br>
+&lt;div class="user"&gt;<br>
+&lt;h4&gt;User Perticulars&lt;/h4&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="fullname"&gt;Login ID :&lt;/label&gt;<br>
+&lt;input type="text" placeholder="Login ID here" class="text" /&gt;<br>
+&lt;/div&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="fullname"&gt; Password :&lt;/label&gt;<br>
+&lt;td&gt;&lt;input type="password" placeholder=" Enter Password here"  class="text" /&gt;&lt;/td&gt;<br>
+&lt;/div&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="fullname"&gt; Confirm Password :&lt;/label&gt;<br>
+&lt;td&gt;&lt;input type="password" placeholder="Enter Password here"  class="text" /&gt;&lt;/td&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+
+&lt;div class="personal"&gt;<br>
+&lt;h4&gt;Personal Perticulars&lt;/h4&gt;<br>
+&lt;form method="POST"&gt;<br>
+&lt;label for="Salutation"&gt;Salutation&lt;/label&gt;<br>
+&lt;select name="Salutation" id="salutation"&gt;<br>
+&lt;option value="MR"&gt;Mr&lt;/option&gt;<br>
+&lt;option value="Mrs"&gt;Mrs&lt;/option&gt;<br>
+&lt;option value="Miss"&gt;Miss&lt;/option&gt;<br>
+&lt;option value="Dr"&gt;Dr&lt;/option&gt;<br>
+&lt;option value="Prof"&gt;Prof&lt;/option&gt;<br>
+&lt;option value="Sir"&gt;Sir&lt;/option&gt;<br>
+&lt;option value="Madam"&gt;"Madam"&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;label for="firstname" class="label-title"&gt;First name *&lt;/label&gt;
+&lt;input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" /&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="Middlename" class="label-title"&gt;Middle name *&lt;/label&gt;<br>
+&lt;input type="text" id="firstname" class="form-input" placeholder="enter your Middle name"  /&gt;<br>
+                         
+&lt;label for="lastname" class="label-title"&gt;Last name&lt;/label&gt;<br>
+&lt;input type="text" id="lastname" class="form-input" placeholder="enter your last name" /&gt;<br>
+&lt;/div&gt;<br>
+&lt;label for="Resident status"&gt;Resident status&lt;/label&gt;<br>
+&lt;select name="Resident status" id="Resident status"&gt;<br>
+&lt;option value="Citizen"&gt;Citizen&lt;/option&gt;<br>
+&lt;option value="Non Citizen"&gt;Non Citizen&lt;/option&gt;<br>
+&lt;option value="Permemnent Residents "&gt;Permemnent Residents &lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;label for="Country"&gt;Country&lt;/label&gt;<br>
+&lt;select name="Country" id="Country"&gt;<br>
+&lt;option value="India"&gt;India&lt;/option&gt;<br>
+&lt;option value="USA"&gt;USA&lt;/option&gt;<br>
+&lt;option value="Australia"&gt;Australia&lt;/option&gt;<br>
+&lt;option value="Canada"&gt;Canada&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="fullname"&gt;Enter Email ID :&lt;/label&gt;<br>
+&lt;input type="text" placeholder="Enter Email ID here" class="text" /&gt;<br>
+                
+&lt;label for="mobile"&gt;Mobile&lt;/label&gt;<br>
+&lt;input type="tel" placeholder="tel for mobile" name="" id=""&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div>&gt;  <br>
+&lt;div class="account"&gt;<br>
+&lt;h4&gt;Account Perticulars&lt;/h4>&gt;  <br>
+&lt;form method="POST"&gt;<br>
+&lt;div&gt;<br>
+&lt;label for="15 Digit Account Number"&gt;15 Digit Account Number&lt;/label&gt;<br>
+&lt;input type="tel" placeholder="tel for account number" name="" id=""&gt;<br>
+                                     
+&lt;label for="Nick name"&gt;Nick Name :&lt;/label&gt;<br>
+&lt;input type="text" placeholder=""  class="text" /&gt;<br>
+&lt;/div&gt;<br>
+&lt;label for="fund transfer"&gt;Fund transfer&lt;/label&gt;<br>
+&lt;select name="fund transfer" id="fund transfer"&gt;<br>
+&lt;option value="Check"&gt;Check&lt;/option&gt;<br>
+&lt;option value="UPI"&gt;UPI&lt;/option&gt;<br>
+&lt;option value="PAytm"&gt;PAytm&lt;/option&gt;<br>
+&lt;option value="Gpay"&gt;Gpay&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+&lt;/div&gt;  <br>
+&lt;div class="Declration"&gt;<br>
+&lt;h4>Declaration&lt;/h4&gt; <br>
+&lt;p&gt;I have read, understood here by agree to the term and conditionin repsect of all products<br>
+                and channels.&lt;br&gt;<br>
+             I understand that any changes in the terms and conditions applicable to this relationship would be made avilable to me on request at any IOB branches.<br>
+             I confirm that all account under this login name are operated singly and in case of joint account opertaed by either<br>
+             survivor/ any survivor(s) under his/her joint name respectively.I do hereby declare that information furnished in this<br>
+             form is true to the best of my knowldege and belief. &lt;/p&gt;<br>         
+             &lt;div&gt;<br>
+             &lt;input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" class="btn" /&gt;<br>
+             &lt;input type="reset" name="btnreset" id="btnreset" value="Reset" class="btn" /&gt;<br>
+             &lt;/div&gt;<br>
+             &lt;/div&gt;<br>
+             &lt;/body&gt;<br>
+             &lt;/html&gt;<br>
+</code>
+
+<h4>CSS:</h4>
+<code>
+    body {<br>
+        background-color: aqua;<br>  
+       }<br>
+       
+       header {<br>
+         background-color:rgb(68, 65, 231);<br>
+       }<br>
+       
+       header h1 {<br>
+         font-size: 30px;<br>
+         text-align:center;<br>
+         color:red;<br>
+         padding:10px 0;<br>
+         border-bottom:1px solid #cccccc;<br>
+         
+       }<br>
+       .container{<br>
+           position: relative;<br>
+           max-width: 900px;<br>
+           width: 100%;<br>
+           padding: 30px;<br>
+           margin: 0 15px;<br>
+           color:rgb(80, 23, 238);<br>
+          row-gap: 1px;<br>
+          column-gap: 2px;<br>
+       }<br>
+       .container h4{<br>
+         position:relative;<br>
+         color:red;<br>
+         font-family: sans-serif;<br>
+         font-size: medium;<br>
+       
+       }<br>
+       
+       .div{<br>
+       margin: 0;<br>
+       padding: 0;<br>
+       padding-top: 5px;<br>
+       justify-content: space-between;<br>
+       align-content:space-between;<br>
+       }<br>
+      
+       .btn{<br>
+        color:#00008B;<br>
+        border: 1px outset #00008B;<br>
+        background-color: grey;<br>
+       }<br>
+       .p{<br>
+         color:rgb(80, 23, 238);<br>
+       }<br>
 </code>
 
 </body>
 </html>
+
