@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    
+   }
+   
+   header {
+     background-color:rgb(68, 65, 231);
+   }
+   
+   header h1 {
+     font-size: 30px;
+     text-align:center;
+     color:red;
+     padding:10px 0;
+     border-bottom:1px solid #cccccc;
+     
+   }
+   .container{
+       position: relative;
+       max-width: 900px;
+       width: 100%;
+       padding: 30px;
+       margin: 0 15px;
+       color:rgb(80, 23, 238);
+      row-gap: 1px;
+      column-gap: 2px;
+   }
+   .container h4{
+     position:relative;
+     color:red;
+     font-family: sans-serif;
+     font-size: medium;
+   
+   }
+   
+   .div{
+   margin: 0;
+   padding: 0;
+   padding-top: 5px;
+   justify-content: space-between;
+   align-content:space-between;
+   }
+   .personal{ 
+     justify-content: space-between;
+   }
+   .btn{
+    color:#00008B;
+    border: 1px outset #00008B;
+    background-color: grey;
+   }
+   .p{
+     color:rgb(80, 23, 238);
+   }

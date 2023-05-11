@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration </title>
+<link rel="stylesheet" href="HTML_module2/style.css">
+</head>
+<body>
+  <header>
+<h1>Individual Registration</h1>
+</header>
+<form method="POST">
+<div class="container">
+  <div class="user">
+<h4>User Perticulars</h4>
+     <div>
+            <label for="fullname">Login ID :</label>
+            <input type="text" placeholder="Login ID here" class="text" />
+     </div>
+            <div>
+              <label for="fullname"> Password :</label>
+              <td><input type="password" placeholder=" Enter Password here"  class="text" /></td>
+            </div>
+              <div>
+                <label for="fullname"> Confirm Password :</label>
+                <td><input type="password" placeholder="Enter Password here"  class="text" /></td>
+              </div>
+            </div>
+
+            <div class="personal">
+                <h4>Personal Perticulars</h4>   
+                        <form method="POST">
+                          <label for="Salutation">Salutation</label>
+                          <select name="Salutation" id="salutation">
+                            <option value="MR">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Miss">Miss</option>
+                            <option value="Dr">Dr</option>
+                            <option value="Prof">Prof</option>
+                            <option value="Sir">Sir</option>
+                            <option value="Madam">"Madam"</option>
+                          </select>
+                          
+                                <label for="firstname" class="label-title">First name *</label>
+                                <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                           
+                            <div>
+                              <label for="Middlename" class="label-title">Middle name *</label>
+                              <input type="text" id="firstname" class="form-input" placeholder="enter your Middle name"  />
+                         
+                                <label for="lastname" class="label-title">Last name</label>
+                                <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                            </div>
+                            <label for="Resident status">Resident status</label>
+                          <select name="Resident status" id="Resident status">
+                            <option value="Citizen">Citizen</option>
+                            <option value="Non Citizen">Non Citizen</option>
+                            <option value="Permemnent Residents ">Permemnent Residents </option>
+                          </select>
+                          <label for="Country">Country</label>
+                          <select name="Country" id="Country">
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Canada">Canada</option>
+                          </select>
+                        
+                          <div>
+                            <label for="fullname">Enter Email ID :</label>
+                            <input type="text" placeholder="Enter Email ID here" class="text" />
+                
+                              <label for="mobile">Mobile</label>
+                           <input type="tel" placeholder="tel for mobile" name="" id="">
+                            </div>
+                          </div>   
+                          
+                          <div class="account">
+                            <h4>Account Perticulars</h4>   
+                                    <form method="POST">
+                                      <div>
+                                        <label for="15 Digit Account Number">15 Digit Account Number</label>
+                                     <input type="tel" placeholder="tel for account number" name="" id="">
+                                     
+                                        <label for="Nick name">Nick Name :</label>
+                                        <input type="text" placeholder=""  class="text" />
+                                      </div>
+                                      <label for="fund transfer">Fund transfer</label>
+                                      <select name="fund transfer" id="fund transfer">
+                                        <option value="Check">Check</option>
+                                        <option value="UPI">UPI</option>
+                                        <option value="PAytm">PAytm</option>
+                                        <option value="Gpay">Gpay</option>
+                                      </select>
+                                  </div>  
+                                  
+                                  <div class="Declration">
+                                    <h4>Declaration</h4>  
+                                    <p>I have read, understood here by agree to the term and conditionin repsect of all products
+                                       and channels.<br>
+                                       I understand that any changes in the terms and conditions applicable to this relationship would be made avilable to me on request at any IOB branches.
+                                       I confirm that all account under this login name are operated singly and in case of joint account opertaed by either
+                                       survivor/ any survivor(s) under his/her joint name respectively.I do hereby declare that information furnished in this
+                                       form is true to the best of my knowldege and belief.
+
+                                      </p>                 
+                                      <div>
+                                        <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" class="btn" />
+                                        <input type="reset" name="btnreset" id="btnreset" value="Reset" class="btn" />
+                                      </div>
+                                        
+</div>
+</body>
+</html>
